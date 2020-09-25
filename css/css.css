@@ -331,9 +331,6 @@ footer .container .column-1 {
 }
 
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
-  }
   header .container p {
     margin-bottom: 40px;
   }
@@ -350,18 +347,6 @@ footer .container .column-1 {
   }
   .access .container p {
     font-size: 1.1em;
-  }
-  .clip .container .column h2 {
-    font-size: 1.3em;
-  }
-  .clip .container .column p {
-    font-size: 1em;
-    margin-bottom: 35px;
-  }
-  .clip .container .column .mac,
-  .clip .container .column .android {
-    display: block;
-    margin: 20px 0px 0px 0px;
   }
 }
 
