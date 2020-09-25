@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+$font-Bai:'Bai Jamjuree', sans-serif;
+
+// Colores 
+
+$cyan: hsl(171, 66%, 44%);
+$Blue:hsl(233, 100%, 69%);
+$H:hsl(210, 10%, 33%);
+$P:hsl(201, 11%, 66%);
+
+// Mixins
+
+@mixin btn-ios {
+    border-radius: 50px;
+    border: none;
+    padding: 15px 30px;
+    background: $cyan;
+    color: #fff;
+    font-weight: 600; 
+}
+
+@mixin btn-mac {
+    border-radius: 50px;
+    border: none;
+    padding: 15px 30px;
+    background: $Blue;
+    color: #fff;
+    font-weight: 600; 
+}

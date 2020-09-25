@@ -1,0 +1,25 @@
+.services{
+    margin-top: 50px;
+   .container{
+       justify-content: flex-start;
+    .column{
+        .txt{
+            max-width: 370px;
+            margin: 20px 0px 0px 0px;
+            padding-left: 80px;
+            margin-bottom: 40px;
+            h3{
+                margin: 10px 0px;
+                font-size: 1.5em;
+            }
+            p{
+                font-size: 1em;
+            }
+        }
+    }
+    img {
+        width: 50%;
+    }
+   }
+}
+

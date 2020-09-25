@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #4c545d;
+}
+
+p {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #9fabb2;
+  line-height: 1.5;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 1350px;
+  margin: auto;
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .column {
+  text-align: center;
+  margin-top: 100px;
+}
+
+header .column p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.3em;
+}
+
+header .column h1 {
+  padding: 20px 0px;
+  font-size: 2.8em;
+}
+
+header .column .android {
+  margin: 50px 15px 30px 0px;
+  display: inline-block;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 30px;
+  background: #26baa4;
+  color: #fff;
+  font-weight: 600;
+}
+
+header .column .mac {
+  border-radius: 50px;
+  border: none;
+  padding: 15px 30px;
+  background: #6173ff;
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+}
+
+header .column .txt {
+  margin-top: 80px;
+}
+
+header .column .txt h2 {
+  padding: 20px 0px;
+  font-size: 2.2em;
+}
+
+header .column .txt p {
+  max-width: 700px;
+  font-size: 1.1em;
+  margin-bottom: 50px;
+}
+
+header .fondo img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -10;
+}
+
+.services {
+  margin-top: 50px;
+}
+
+.services .container {
+  justify-content: flex-start;
+}
+
+.services .container .column .txt {
+  max-width: 370px;
+  margin: 20px 0px 0px 0px;
+  padding-left: 80px;
+  margin-bottom: 40px;
+}
+
+.services .container .column .txt h3 {
+  margin: 10px 0px;
+  font-size: 1.5em;
+}
+
+.services .container .column .txt p {
+  font-size: 1em;
+}
+
+.services .container img {
+  width: 50%;
+}
+
+.access .container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.access .container h2 {
+  font-size: 2.2em;
+  padding: 20px 0px;
+}
+
+.access .container p {
+  font-size: 1.2em;
+  max-width: 750px;
+  margin: auto;
+}
+
+.access .container img {
+  margin-top: 100px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.supercharge .container .column {
+  margin: 50px 0px 80px 0px;
+}
+
+.supercharge .container .column .txt {
+  text-align: center;
+}
+
+.supercharge .container .column .txt h2 {
+  padding: 20px 0px;
+  font-size: 2.2em;
+}
+
+.supercharge .container .column .txt p {
+  font-size: 1.2em;
+  margin-bottom: 80px;
+}
+
+.supercharge .container .column .txt .container {
+  align-items: baseline;
+  margin-top: 50px;
+}
+
+.supercharge .container .column .txt .container .card {
+  max-width: 380px;
+  width: 32%;
+}
+
+.supercharge .container .column .txt .container .card img {
+  margin: 20px 0px;
+  width: 50px;
+}
+
+.supercharge .container .column .txt .container .card h3 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+.supercharge .container .column .txt .container .card p {
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+
+.supercharge .container .column-1 {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.supercharge .container .column-1 img {
+  margin: 20px;
+}
+
+.clip {
+  margin: 40px auto;
+}
+
+.clip .container .column {
+  text-align: center;
+}
+
+.clip .container .column h2 {
+  font-size: 2.5em;
+  padding: 30px 0px;
+}
+
+.clip .container .column p {
+  font-size: 1.2em;
+  max-width: 700px;
+  margin: auto;
+}
+
+.clip .container .column a {
+  margin: 50px 15px 30px 0px;
+  display: inline-block;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 30px;
+  background: #26baa4;
+  color: #fff;
+  font-weight: 600;
+}
+
+.clip .container .column .mac {
+  border-radius: 50px;
+  border: none;
+  padding: 15px 30px;
+  background: #6173ff;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+footer {
+  background: #bbccd829;
+}
+
+footer .container .column-1 {
+  width: 70% !important;
+}
+
+@media screen and (max-width: 900px) {
+  header .container .column h1 {
+    font-size: 2.3em;
+  }
+  header .container .column p {
+    font-size: 1.1em;
+  }
+  header .container .column .txt h2 {
+    font-size: 2em;
+  }
+  header .container .column .txt p {
+    font-size: 1em;
+  }
+  .services .container {
+    flex-direction: column;
+  }
+  .services .container .column .txt {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    padding-left: 0px;
+  }
+  .services .container .column .txt p {
+    font-size: 1.1em;
+  }
+  .services .container img {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  .access .container h2 {
+    font-s: 1.9em;
+  }
+  .access .container p {
+    font-size: 1.1em;
+  }
+  .supercharge .container .column .txt h2 {
+    font-size: 2em;
+  }
+  .supercharge .container .column .txt p {
+    font-size: 1.2em;
+  }
+  .supercharge .container .column .container {
+    align-items: center !important;
+    flex-direction: column;
+  }
+  .supercharge .container .column .container .card {
+    width: 100% !important;
+    max-width: 600px !important;
+  }
+  .clip .container .column h2 {
+    font-size: 2em;
+  }
+  .clip .container .column p {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  footer .container,
+  footer .column-1 {
+    flex-direction: column;
+  }
+  footer .container .column ul img,
+  footer .column-1 .column ul img {
+    margin: 0px 20px !important;
+    width: 25px;
+  }
+  footer .container .column-1 .container,
+  footer .column-1 .column-1 .container {
+    align-items: center !important;
+    text-align: center;
+    margin: 10px 0px;
+  }
+  footer .container .column-1 img,
+  footer .column-1 .column-1 img {
+    margin-right: 0% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  header .container p {
+    margin-bottom: 40px;
+  }
+  header .container .mac,
+  header .container .android {
+    display: block;
+    margin: 20px 0px 0px 0px;
+  }
+  header .container .txt {
+    margin-top: 30px;
+  }
+  .access .container h2 {
+    font-size: 1.9em;
+  }
+  .access .container p {
+    font-size: 1.1em;
+  }
+  .clip .container .column h2 {
+    font-size: 1.3em;
+  }
+  .clip .container .column p {
+    font-size: 1em;
+    margin-bottom: 35px;
+  }
+  .clip .container .column .mac,
+  .clip .container .column .android {
+    display: block;
+    margin: 20px 0px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header .container .column h1 {
+    font-size: 2.3em;
+  }
+  header .container .column p {
+    font-size: 1.1em;
+  }
+  header .container .column .txt h2 {
+    font-size: 2em;
+  }
+  header .container .column .txt p {
+    font-size: 1em;
+  }
+}
+
+footer {
+  background: #bbccd829;
+  font-size: 1.1em;
+}
+
+footer .container {
+  padding: 40px 0px;
+}
+
+footer .container img {
+  width: 70px;
+}
+
+footer .container .column ul img {
+  margin-right: 30px;
+  width: 25px;
+}
+
+footer .container .column-1 {
+  width: 65%;
+}
+
+footer .container .column-1 .container {
+  padding: 0;
+  align-items: flex-start;
+  width: 100%;
+}
+
+footer .container .column-1 .txt {
+  padding: 0px 20px;
+}
+
+footer .container .column-1 .txt p {
+  margin: 15px 0px;
+  color: #212222bf;
+}
+
+footer .container .column-1 img {
+  margin-right: 10%;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-family: $font-Bai;
+}
+
+li{
+    list-style: none;
+}
+
+h1,h2,h3,h4{
+    font-family: $font-Bai;
+    color: $H;
+}
+
+p{
+    font-family: $font-Bai; 
+    color: $P;
+    line-height: 1.5;
+}
+
+.wrapper{
+    width: 80%;
+    max-width: 1350px;
+    margin: auto;
+}
+
+
+.display-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
